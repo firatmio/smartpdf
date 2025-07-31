@@ -1,0 +1,7 @@
+MAIN_BG = "#f3f3f3"
+MAIN_FG = "#f3f3f3"
+MAIN_FRAME_FG = "#e8e8e8"
+MAIN_TC = "#333333"
+MAIN_TC_HOVER = "#555555"
+DIVIDER = "#c2c2c2"
+PROGRESS_BAR_FG = "#e0e0e0"
