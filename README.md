@@ -260,6 +260,6 @@ Proje ile ilgili sorularınız için:
 
 **⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın! / Don't forget to star the project if you like it!**
 
-Made with ❤️ by [Your Name](https://github.com/firatmio)
+Made with ❤️ by [firatmio](https://github.com/firatmio)
 
 </div>
