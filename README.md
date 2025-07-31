@@ -252,7 +252,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 Proje ile ilgili sorularınız için:
 
 - **GitHub Issues**: [SmartPDF Issues](https://github.com/yourusername/smartpdf/issues)
-- **Email**: your.email@example.com
+- **Email**: firattunaarslan@gmail.com
 
 ---
 
@@ -260,6 +260,6 @@ Proje ile ilgili sorularınız için:
 
 **⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın! / Don't forget to star the project if you like it!**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Your Name](https://github.com/firatmio)
 
 </div>
