@@ -67,7 +67,6 @@ class GUI(CTk):
             self.resizable(False, False)
             self.start_session()
         else:
-            # Çevirileri yükle
             self.language_manager.load_translations()
             self.update_idletasks()
             self._maximize_window()
@@ -138,7 +137,6 @@ class GUI(CTk):
         self.pdf_path = file_path
         self.analyze_button.configure(text="...", state="disabled")
         
-        # Analiz başlarken loading mesajı göster
         for widget in self.results_frame.winfo_children():
             widget.destroy()
             
@@ -192,7 +190,6 @@ class GUI(CTk):
         for widget in self.results_frame.winfo_children():
             widget.destroy()
         
-        # Ana başlık
         title_label = CTkLabel(
             self.results_frame, 
             text=self.language_manager.get_text("pdf_analysis"), 
@@ -201,7 +198,6 @@ class GUI(CTk):
         )
         title_label.pack(pady=(25, 20))
         
-        # Scrollable ana container
         scrollable_frame = CTkScrollableFrame(
             self.results_frame, 
             fg_color=th.MAIN_FG,
@@ -209,7 +205,6 @@ class GUI(CTk):
         )
         scrollable_frame.pack(fill=BOTH, expand=True, padx=25, pady=15)
         
-        # Analysis bölümü
         if analysis:
             analysis_section = CTkFrame(scrollable_frame, fg_color=th.MAIN_FRAME_FG, corner_radius=12)
             analysis_section.pack(fill=X, padx=15, pady=(15, 10))
@@ -223,7 +218,6 @@ class GUI(CTk):
             )
             analysis_header.pack(fill=X, padx=20, pady=(20, 10))
             
-            # Analysis içeriği için dinamik yükseklik hesapla
             analysis_lines = analysis.count('\n') + 1
             analysis_height = max(100, min(200, analysis_lines * 60))
             
@@ -242,7 +236,6 @@ class GUI(CTk):
             analysis_text.insert("1.0", analysis)
             analysis_text.configure(state="disabled")
         
-        # Summary bölümü
         if summary:
             summary_section = CTkFrame(scrollable_frame, fg_color=th.MAIN_FRAME_FG, corner_radius=12)
             summary_section.pack(fill=X, padx=15, pady=10)
@@ -256,7 +249,6 @@ class GUI(CTk):
             )
             summary_header.pack(fill=X, padx=20, pady=(20, 10))
             
-            # Summary içeriği için dinamik yükseklik hesapla
             summary_lines = summary.count('\n') + 1
             summary_height = max(80, min(150, summary_lines * 25))
             
@@ -275,7 +267,6 @@ class GUI(CTk):
             summary_text.insert("1.0", summary)
             summary_text.configure(state="disabled")
         
-        # Keywords bölümü
         if keywords:
             keywords_section = CTkFrame(scrollable_frame, fg_color=th.MAIN_FRAME_FG, corner_radius=12)
             keywords_section.pack(fill=X, padx=15, pady=10)
@@ -303,7 +294,6 @@ class GUI(CTk):
             )
             keywords_label.pack(fill=X, padx=15, pady=15)
         
-        # Q&A bölümü
         qa_section = CTkFrame(scrollable_frame, fg_color=th.MAIN_FRAME_FG, corner_radius=12)
         qa_section.pack(fill=X, padx=15, pady=(10, 20))
         
@@ -316,7 +306,6 @@ class GUI(CTk):
         )
         qa_header.pack(fill=X, padx=20, pady=(20, 15))
         
-        # Soru girme alanı
         question_container = CTkFrame(qa_section, fg_color="transparent")
         question_container.pack(fill=X, padx=20, pady=(0, 15))
         
@@ -348,7 +337,6 @@ class GUI(CTk):
         )
         ask_button.pack(side=RIGHT)
         
-        # Cevap alanı
         self.answer_frame = CTkFrame(qa_section, fg_color="transparent")
         self.answer_frame.pack(fill=X, padx=20, pady=(0, 20))
     
@@ -359,7 +347,6 @@ class GUI(CTk):
         
         self.question_entry.configure(state="disabled")
         
-        # Loading göstergesi ekle
         for widget in self.answer_frame.winfo_children():
             widget.destroy()
             
@@ -386,7 +373,6 @@ class GUI(CTk):
         for widget in self.answer_frame.winfo_children():
             widget.destroy()
         
-        # Cevap başlığı
         answer_header = CTkLabel(
             self.answer_frame, 
             text=self.language_manager.get_text("answer"), 
@@ -396,11 +382,9 @@ class GUI(CTk):
         )
         answer_header.pack(fill=X, pady=(15, 10))
         
-        # Cevap içeriği için dinamik yükseklik hesapla
         answer_lines = answer.count('\n') + 1
         answer_height = max(60, min(120, answer_lines * 25))
         
-        # Cevap kutusu
         answer_container = CTkFrame(self.answer_frame, fg_color="white", corner_radius=8)
         answer_container.pack(fill=X, pady=(0, 5))
         
