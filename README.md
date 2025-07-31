@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/firatmio/smartpdf/main/assets/logo.png" alt="SmartPDF Logo" width="200" height="200" style="border-radius: 20px; margin-bottom: 20px;">
+<img src="https://raw.githubusercontent.com/e500ky/smartpdf/main/assets/logo.png" alt="SmartPDF Logo" width="200" height="200" style="border-radius: 20px; margin-bottom: 20px;">
 
 ![SmartPDF Badge](https://img.shields.io/badge/SmartPDF-AI%20Analysis-blue?style=for-the-badge&logo=adobe-acrobat-reader)
 
@@ -251,8 +251,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 Proje ile ilgili sorularınız için:
 
-- **GitHub Issues**: [SmartPDF Issues](https://github.com/yourusername/smartpdf/issues)
-- **Email**: firattunaarslan@gmail.com
+- **Email**: your.email@example.com
 
 ---
 
@@ -260,6 +259,6 @@ Proje ile ilgili sorularınız için:
 
 **⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın! / Don't forget to star the project if you like it!**
 
-Made with ❤️ by [firatmio](https://github.com/firatmio)
+Made with ❤️ by [Your Name](https://github.com/yourusername)
 
 </div>
