@@ -1,0 +1,4 @@
+customtkinter
+openai>=1.50.0
+python-dotenv
+PyPDF2
