@@ -30,6 +30,7 @@ set_appearance_mode("light")
 class GUI(CTk):
     def __init__(self):
         super().__init__()
+        self.iconbitmap(os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "logo.ico"))
         
         self.session = session()
         self.pdf_text = ""

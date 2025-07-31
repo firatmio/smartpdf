@@ -2,7 +2,9 @@
 
 <div align="center">
 
-![SmartPDF Logo](https://img.shields.io/badge/SmartPDF-AI%20Analysis-blue?style=for-the-badge&logo=adobe-acrobat-reader)
+<img src="https://raw.githubusercontent.com/e500ky/smartpdf/main/assets/logo.png" alt="SmartPDF Logo" width="200" height="200" style="border-radius: 20px; margin-bottom: 20px;">
+
+![SmartPDF Badge](https://img.shields.io/badge/SmartPDF-AI%20Analysis-blue?style=for-the-badge&logo=adobe-acrobat-reader)
 
 [![Python](https://img.shields.io/badge/Python-3.12+-3776ab?style=flat&logo=python&logoColor=white)](https://python.org)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-412991?style=flat&logo=openai&logoColor=white)](https://openai.com)
