@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/e500ky/smartpdf/main/assets/logo.png" alt="SmartPDF Logo" width="200" height="200" style="border-radius: 20px; margin-bottom: 20px;">
+<img src="https://raw.githubusercontent.com/firatmio/smartpdf/main/assets/logo.png" alt="SmartPDF Logo" width="200" height="200" style="border-radius: 20px; margin-bottom: 20px;">
 
 ![SmartPDF Badge](https://img.shields.io/badge/SmartPDF-AI%20Analysis-blue?style=for-the-badge&logo=adobe-acrobat-reader)
 
