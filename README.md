@@ -72,7 +72,7 @@ SmartPDF is a modern, user-friendly PDF analysis application powered by **OpenAI
 ```
 🇺🇸 English    🇹🇷 Türkçe     🇩🇪 Deutsch    🇫🇷 Français
 🇪🇸 Español    🇮🇹 Italiano   🇵🇹 Português  🇷🇺 Русский
-🇸🇦 العربية     🇨🇳 中文        🇯🇵 日本語
+🇸🇦 العربية       🇨🇳 中文        🇯🇵 日本語
 ```
 
 ### 🤖 AI Özellikleri / AI Capabilities
